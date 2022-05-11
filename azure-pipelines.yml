@@ -10,4 +10,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  - script: echo 'Hello World' >sample.txt
+  - script: echo 'Hello World'
+  - bash: 'Repository Name : $(Build.Repository.Name)'
